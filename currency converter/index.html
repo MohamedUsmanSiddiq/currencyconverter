@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="coin.jpg">
+</head>
+
+<body>
+    <header>
+        <div class="currency-container">
+            <h2>Currency Converter</h2>
+            <div class="currency">
+                <select class="currency1">
+                    <input type="number" id="input" min=0><br>
+                </select>
+            </div>
+            <p id="rendermsg"></p>
+            <h1><i class="fa-solid fa-arrow-down-long" onclick="swap()"></i></h1>
+            <div class="currency">
+                <select class="currency1">
+                    <input type="number" id="result" min=0>
+                </select>
+            </div>
+            <button type="submit" id="btn">Convert</button>
+            <h3 id="restext"></h3>
+        </div>
+    </header>
+    <script src="script.js"></script>
+</body>
+
+</html>

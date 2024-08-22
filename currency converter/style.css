@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: crimson;
+}
+
+.currency-container{
+    text-align: center;
+    margin:20vh auto;
+    color: white;
+    padding: 20px;
+    background-color: rgb(133, 17, 40);
+    width: fit-content;
+    justify-content: center;
+    border-radius: 5px;
+}
+h2{
+    font-weight: 700;
+    margin-top: 10px;
+}
+.currency{
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+}
+.currency select{
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    background-color: chocolate;
+}
+#input,#result{
+    margin-top: 10px;
+    border: none;
+}
+i{
+    font-size: large;
+    margin-top: 10px;
+}
+
+button{
+    width: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(215, 179, 124);
+}
+
+h3{
+    margin-top: 10px;
+}
